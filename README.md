@@ -1,23 +1,21 @@
-# Templateの使い方
+# gitbook-skeleton
 
-## 一番最初にやること
+## setup
 ```sh
-# 3minぐらいかかります。
 make init
 make template
 ```
 
-## gitbookの閲覧
+## show gitbook
 ```sh
-# サーバー立ち上げ
+# wakeup server
 make serve
 
-# 上記がバックグラウンドで立ち上がるので
-# 停止したいときはこれ
+# ↑ wakeup background, so this is stop command
 make stop
 ```
 
-## PDFのビルド
+## build pdf
 ```sh
 make build.pdf
 ```
